@@ -15,21 +15,20 @@ public class UpdateClient {
 	
 	public static void main(String[] args) throws JAXBException {
 		/*
-		 * Updating entry 5 from ("1.72","56") to ("1.81","81") and date field with the current server date
+		 * Updating entry 5 from ("1.72","56") ("1.80","80") and "DATE" as current system date
 		 * WARNING : InsertClient.java must be executed before
 		 */
-		
 		Client client = ClientBuilder.newClient();
 		Form form = new Form();
 		form.param("id", "5");
-		form.param("height", "1.81");
-		form.param("weight", "81");
-		form.param("date", BMIHistoric.dateFormat.format(new Date()));
-		String xml = client.target("http://localhost:8080/bodymassindex/webapi/bmi/update")
+		form.param("height", "1.80");
+		form.param("weight", "80");
+	    form.param("date", BMIHistoric.dateFormat.format(new Date()));
+		
+	    String xml = client.target("http://localhost:8080/bodymassindex/webapi/bmi/update")
 	            .request(MediaType.APPLICATION_XML)
 	            .put(Entity.entity(form,MediaType.APPLICATION_FORM_URLENCODED),String.class);
 	    
-	    System.out.println(xml);
+	    System.out.println("BMI UPDATED\n"+xml);
 	}
-	
 }
