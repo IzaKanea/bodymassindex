@@ -6,7 +6,7 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import javax.xml.bind.JAXBException;
 
-public class selectClient {
+public class SelectClient {
 	
 	public static void main(String[] args) throws JAXBException {
 		/*
