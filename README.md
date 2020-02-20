@@ -66,7 +66,7 @@ historic : [ ID : 10, HEIGHT : 1.95, WEIGHT : 112.0, BMI : 29.45, DATE : 15/02/2
 <p>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;bMIHistorics&gt;&lt;record&gt;&lt;bmi&gt;19.<b>....</b>&lt;/bMIHistorics&gt;</p>
 
 <p><b>HTML</b></p>
-<p>&lt;html&gt;&lt;head&gt;&lt;title&gt;Body Mass Index calculator&lt;/title&gt;&lt;/head&gt;&lt;h1&gt;Body Mass Index calculator&lt;/h1&gt;&lt;body&gt;&lt;fieldset&gt;&lt;legend&gt;Hystoric 15/02/2020 22:51:14&lt;/legend&gt;&lt;ul&gt;&lt;li&gt; ID : 1&lt;/li&gt;&lt;li&gt; HEIGHT : 1.59&lt;/li&gt;&lt;li&gt; WEIGHT : 49.0&lt;/li&gt;&lt;li&gt; BMI : 19.38<b>....</b>&lt;/body&gt;&lt;/html&gt;</p>
+<p>&lt;html&gt;&lt;head&gt;&lt;title&gt;Body Mass Index calculator&lt;/title&gt;&lt;/head&gt;&lt;h1&gt;Body Mass Index calculator&lt;/h1&gt;&lt;body&gt;&lt;fieldset&gt;&lt;legend&gt;Historic 15/02/2020 22:51:14&lt;/legend&gt;&lt;ul&gt;&lt;li&gt; ID : 1&lt;/li&gt;&lt;li&gt; HEIGHT : 1.59&lt;/li&gt;&lt;li&gt; WEIGHT : 49.0&lt;/li&gt;&lt;li&gt; BMI : 19.38<b>....</b>&lt;/body&gt;&lt;/html&gt;</p>
 
 <p><b>TEXT PLAIN</b></p>
 <p>historic : [ ID : 1, HEIGHT : 1.59, WEIGHT : 49.0, BMI : 19.38, <b>....</b> ]</p>
