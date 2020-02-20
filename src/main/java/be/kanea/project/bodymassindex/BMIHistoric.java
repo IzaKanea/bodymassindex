@@ -99,7 +99,7 @@ public class BMIHistoric {
 	}
 	
 	public String toHTML() {
-		String ul = "<fieldset><legend>Hystoric "+getDate()+"</legend><ul>";
+		String ul = "<fieldset><legend>Historic "+getDate()+"</legend><ul>";
 		ul+="<li> ID : "+getId()+"</li>";
 		ul+="<li> HEIGHT : "+getHeight()+"</li>";
 		ul+="<li> WEIGHT : "+getWeight()+"</li>";
